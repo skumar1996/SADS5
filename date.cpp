@@ -31,6 +31,7 @@ private:
     int day;
 public:
     Date(){};
+    
     Date(int year_in, int month_in, int day_in){
         this->year = year_in;
         this->month = month_in;
